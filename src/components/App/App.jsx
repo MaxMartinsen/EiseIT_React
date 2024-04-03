@@ -1,10 +1,8 @@
 import AppRoutes from '../Routes/Routes';
 
-import style from '../../style/App.module.css';
-
 function App() {
   return (
-    <div className={style.app}>
+    <div className="bg-ebony-950">
       <AppRoutes />
     </div>
   );

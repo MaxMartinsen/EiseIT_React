@@ -1,4 +1,4 @@
-function Home() {
+function Contact() {
   return (
     <div className="p-4 sm:ml-64">
       <div className="p-4">
@@ -260,4 +260,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Contact;
