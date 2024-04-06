@@ -22,7 +22,7 @@ function Header() {
   }, []);
   return (
     <nav
-      className={`fixed top-0 z-50 w-full flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 ${isScrolled ? 'backdrop-blur-sm dark:bg-ebony-950/25' : 'dark:bg-transparent'}`}
+      className={`sticky top-0 z-50 w-full flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 ${isScrolled ? 'backdrop-blur-sm dark:bg-ebony-950/25' : 'dark:bg-transparent'}`}
     >
       <div className="px-3 py-3 lg:px-5 lg:pl-3">
         <div className="flex flex-wrap items-center justify-between">

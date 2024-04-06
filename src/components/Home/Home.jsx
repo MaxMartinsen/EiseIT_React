@@ -1,16 +1,15 @@
-import IMG_HOME from '../../assets/image/Group_Home.png';
+import IMG_HOME from '../../assets/image/Group_Home.webp';
 
 function Home() {
   return (
-    <div className="p-4 sm:ml-64">
+    <div className="p-4 sm:ml-60">
       <div className="p-4">
-        <div className="h-10"></div>
-        <div className="grid grid-cols-2 mb-4">
-          <div className="flex flex-col justify-center xl:mx-10 h-96">
+        <div className="flex flex-col-reverse md:grid md:grid-cols-2 mb-4">
+          <div className="flex flex-col justify-center xl:mx-10 2xl:mt-16 h-64 md:h-96">
             <h3 className="mb-2 xl:text-xl leading-6 font-poppins font-semibold text-sky-500 dark:text-sky-400">
               Next level
             </h3>
-            <h1 className="inline-block text-2xl sm:text-3xl xl:text-5xl font-poppins font-semibold text-slate-900 tracking-tight dark:text-slate-200">
+            <h1 className="inline-block text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-poppins font-semibold text-slate-900 tracking-tight dark:text-slate-200">
               Advanced Your Business Potential with{' '}
               <span className="text-nowrap bg-gradient-to-r from-cyan-200 to-indigo-500 bg-clip-text text-transparent">
                 IT Solutions
@@ -22,9 +21,9 @@ function Home() {
             </p>
           </div>
           <div className="flex items-center justify-center relative">
-            <div className="">
+            <div className="h-96">
               <img
-                className="absolute lg:-top-10 xl:-top-20 left-8"
+                className="absolute top-0 lg:-top-10 xl:-top-20 left-8"
                 src={IMG_HOME}
                 alt=""
               />
