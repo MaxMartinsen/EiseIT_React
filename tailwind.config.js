@@ -10,10 +10,10 @@ export default {
   darkMode: 'media',
   theme: {
     screens: {
-      sm: '480px',
+      sm: '435px',
       md: '768px',
       lg: '976px',
-      xl: '1440px',
+      xl: '1240px',
     },
     extend: {
       colors: {
