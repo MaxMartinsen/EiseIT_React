@@ -35,7 +35,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <div className="h-32 sm:h-52 md:h-20"></div>
+        <div className="h-32 sm:h-52 md:h-20 xl:h-72"></div>
         <section className="grid grid-cols-1 xl:grid-cols-2 gap-14 mb-4 items-center">
           <div className="flex flex-col">
             <h2 className="text-3xl leading-relaxed dark:text-white font-poppins font-medium flex flex-col">
