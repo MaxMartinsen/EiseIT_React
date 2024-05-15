@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS to target the autofill style */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgb(31 41 55) inset !important;
+  -webkit-text-fill-color: rgb(255 255 255) !important;
+}
+
+/* For dark mode */
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover, 
+.dark input:-webkit-autofill:focus, 
+.dark input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgb(31 41 55) inset !important;
+  -webkit-text-fill-color: rgb(255 255 255) !important;
+}
